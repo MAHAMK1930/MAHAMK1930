@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+
+int agecalculator(){
+	int birthmonth,birthyear;
+	int currentyear, currentmonth;
+	int ageyear,agemonth;
+	
+	
+	cout<<"Age Calculator Program";
+	
+	
+	cout<<"enter your birthyear for eg (2002)";
+	cin>>birthyear;
+	
+	cout<<"enter your birthmonth for eg (09)";
+	cin>>birthmonth;
+	
+	cout<<"enter current year for eg (2022)";
+	cin>>currentyear;
+	
+	cout<<"enter current month for eg(08)";
+	cin>>currentmonth;
+	
+	ageyear=currentyear-currentmonth;
+	agemonth=12-birthmonth;
+	
+	
+	cout<<"birth calculated"<<birthyear<<birthmonth<<"old month"<<endl;
+	
+	
+	
+}
+int main()
+{
+	agecalculator();
+}
